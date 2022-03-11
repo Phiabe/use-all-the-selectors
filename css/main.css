@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 body {
   background-color: #fdf6e3;
 }
@@ -18,7 +26,11 @@ ul nav {
   background-color: #eee8d5;
 }
 
-#contents #favs #facts #types {
+#contents #favs {
+  color: #93a1a1;
+}
+
+#facts #types {
   color: #93a1a1;
 }
 
@@ -34,10 +46,6 @@ a {
   background-color: #719e07;
 }
 
-.no-highlight {
-  background-color: none;
-}
-
 h2 > ul li:last-child {
   background-color: #2694d8;
 }
@@ -46,7 +54,7 @@ ol li {
   color: #719e47;
 }
 
-ol li:last-child {
+ol li:first-child {
   color: #719e47;
 }
 
